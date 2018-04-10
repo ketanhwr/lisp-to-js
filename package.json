@@ -1,0 +1,25 @@
+{
+  "name": "lisp-to-js",
+  "version": "1.0.0",
+  "description": "A Lisp to Javascript Compiler and Interpreter",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp build",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "jison",
+    "javascript",
+    "lisp",
+    "js"
+  ],
+  "author": "Ketan Gupta <ketan19972010@gmail.com> (http://github.com/ketanhwr)",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-jasmine": "^2.3.0",
+    "gulp-jison": "^1.2.0",
+    "gulp-watch": "^4.3.5"
+  }
+}

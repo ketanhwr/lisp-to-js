@@ -1,11 +1,11 @@
 node_modules/
 bower_components/
+src/
+test/
+tmp/
 .sass-cache/
 .idea/
 .tmp/
-dist/
-docs/
-lib/
 
 # Mac finder artifacts
 .DS_Store
@@ -15,4 +15,18 @@ lib/
 **.swp
 
 .npm-debug.*
-tmp
+
+.*.swp
+._*
+.git
+.hg
+.npmrc
+.lock-wscript
+.svn
+.wafpickle-*
+config.gypi
+CVS
+npm-debug.log
+fundoc-parser-logo.png
+
+
